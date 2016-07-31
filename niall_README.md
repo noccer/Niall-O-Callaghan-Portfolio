@@ -1,0 +1,53 @@
+# Meet & Greet Presentation Planning
+
+- Intro
+  - About Niall
+    - Engineering - show pakenham?
+    - Music - corkman / new years eve photo
+    - Rubik's Cubes - 3x3 4x4 7x7 11x11
+    - Cycling
+  - About ViewPro
+    - Video snapshot
+    - Screenshots
+    - Google Analytics
+    - Marketing website
+    - FTP?
+    - Terminal?
+    - Mysql?
+    - Excel Spreadsheet
+    - Design brief
+    - Boardrooms
+    - Plane with Conor
+  - About WDI
+    - PTV API
+      - Background
+      - Simple Screenshot of code / README
+      - JSON
+      - Smiley!
+    - Queuer
+      - Background
+      - Simple screenshot
+      - Snapshot of code
+        - UnderscoreJS
+        - NodeJS
+        - Express
+        - JWT
+        - MongoDB
+        - Middleware
+      - 3 person collaboration
+      - Source Control - collaborative method
+    - Robots
+      - 17,500+ suburbs SQL file, converted to seed file
+      - simple Crud
+      - Robot name generated changes photo from Robohash
+    - WDI-conf
+      - 6 person collaboration
+      - Vice GitLord
+      - Designed Database & Modelling
+      - Implemented the countdown timer
+        - Timer only updates the elements that change, instead of updating the whole clock each second
+      - Seeded data
+      - Admin backend for Updating presenter information
+  - Cantabo
+    - Background
+    - Old photos of Corkman gigs
