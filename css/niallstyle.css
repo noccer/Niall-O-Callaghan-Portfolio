@@ -1,0 +1,11 @@
+* {
+  /*border: 1px solid white;*/
+}
+body, h1 {
+  font-family: monospace;
+}
+@font-face {
+  font-family: 'SanchezSlab';
+  src: url('../font/SanchezSlab-Semibold.ttf');
+  font-weight: bold;
+}
