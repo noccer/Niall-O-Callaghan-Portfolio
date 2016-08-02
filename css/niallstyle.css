@@ -9,3 +9,13 @@ body, h1 {
   src: url('../font/SanchezSlab-Semibold.ttf');
   font-weight: bold;
 }
+#music {
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 30;
+}
+#bike {
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}

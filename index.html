@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/theme/night.css">
 
   <!-- Theme used for syntax highlighting of code -->
@@ -34,32 +35,34 @@
       <!-- About section -->
       <section data-background-color="#1976D2">
         <section>
-          <h2>Niall O'Callaghan 🇮🇪</h2>
+          <h2>Niall O'Callaghan  🇮🇪</h2>
           <hr>
+          <h3>Full Stack Web Developer</h3>
         </section>
-        <section>
+        <section data-autoslide="10000">
           <h2>Career so far...</h2>
           <hr>
           <h3>
-            <i class="fa fa-code" aria-hidden="true"></i> Full Stack Web Developer
-          </h3>
-          <h3>
-            🎓 WDI8 Graduate
+            <i class="fa fa-calculator" aria-hidden="true"></i> Structural Engineer
           </h3>
           <h3>
             <i class="fa fa-line-chart" aria-hidden="true"></i> ViewPro Construction App
           </h3>
           <h3>
-            <i class="fa fa-calculator" aria-hidden="true"></i> Structural Engineer</h3>
+            🎓 WDI7
+          </h3>
+          </h3>
+          <h3>
+            <i class="fa fa-code" aria-hidden="true"></i> Full Stack Web Developer
         </section>
       </section>
       <!-- SKILLS -->
       <section data-background-color="#388E3C">
-        <section>
+        <section data-autoslide="3000">
           <h2>Skills</h2>
           <hr>
         </section>
-        <section>
+        <section data-autoslide="15000">
           <h2>Core Web Development Skills</h2>
           <hr>
           <h3>
@@ -89,7 +92,7 @@
             <i class="devicon-angularjs-plain colored"></i> Angular
           </h3>
         </section>
-        <section>
+        <section data-autoslide="15000">
           <h2>More Useful Skills</h2>
           <hr>
           <h3>
@@ -111,7 +114,7 @@
           <h3>
             <i class="devicon-trello-plain colored"></i> Trello
           </h3>
-        </section>
+        </section data-autoslide="15000">
         <section>
           <h2>Other stuff I've done...</h2>
           <hr>
@@ -129,15 +132,17 @@
             <i class="devicon-python-plain colored"></i> Python
           </h3>
           <h3>
-            <i class="fa fa-file-image-o" aria-hidden="true"></i> Image Editing
-            <i class="fa fa-film" aria-hidden="true"></i> Video Editing
-            <br><i class="fa fa-camera-retro" aria-hidden="true"></i> Photography
+            <i class="fa fa-file-image-o" aria-hidden="true" style="color:black"></i> Image Editing
+            <i class="fa fa-film" aria-hidden="true" style="color:black"></i> Video Editing
+          </h3>
+          <h3>
+            <i class="fa fa-camera-retro" aria-hidden="true" style="color:black"></i> Photography
           </h3>
         </section>
       </section>
       <!-- INTERESTS -->
       <section>
-        <section>
+        <section data-autoslide="3000">
           <h2>Interests &amp; Achievements</h2>
           <hr>
         </section>
@@ -148,10 +153,10 @@
             <i class="fa fa-flag-checkered" aria-hidden="true"></i> Formula 1
           </h3>
           <h3>
-            <i class="fa fa-music" aria-hidden="true"></i> Piano / Guitar
+            <i id="music" class="animated pulse fa fa-music" aria-hidden="true"></i> Piano / Guitar
           </h3>
           <h3>
-            <i class="fa fa-bicycle" aria-hidden="true"></i> Cycling
+            <i id="bike" class="animated fadeInLeftBig fa fa-bicycle" aria-hidden="true"></i> Cycling
           </h3>
           <h3>
             🎾 Some Tennis
@@ -174,60 +179,329 @@
         </section>
       </section>
       <!-- ViewPro -->
-      <section>
+      <section data-background-color="#455A64">
         <section>
-          <h1>ViewPro</h1>
+          <img src="img/viewpro-logo-white-transparent.png" alt="Viewpro Logo" style="border: none; background: none; box-shadow: none;">
           <hr>
           <h4>Construction Productivity App</h4>
+          <h4>(2013 - Present)</h4>
         </section>
-        <section>
-          <h2>ViewPro</h2>
+        <section data-autoslide="12000">
+          <h2>Reasons we built ViewPro</h2>
           <hr>
           <h3>
-            Construction Productivity App
+            ● Widespread lack of consistent reporting
           </h3>
+          <h3>
+            ● Detailed construction analytics difficult
+          </h3>
+          <h3>
+            ● $138billion market in Australia
+          </h3>
+          <h3>
+            ● 65,000+ construction related companies
+          </h3>
+          <h3>
+            ● 250,000+ industry workers
+          </h3>
+        </section>
+        <section>
+          <h2>Our solution</h2>
+          <hr>
+          <h3>
+            Uniform Reporting
+          </h3>
+          <h3>
+            Live Critical Information
+          </h3>
+          <h3>
+            Simple way to track progress
+          </h3>
+          <h3>
+            Fast on 2G network (for rural construction)
+          </h3>
+          <h3>
+            Know exactly where your inefficiencies
+          </h3>
+          <h3>
+            A digital site diary
+          </h3>
+        </section>
+        <section>
+          <h2>Tech Stack</h2>
+          <hr>
+          <h3>
+            Java Web App
+          </h3>
+          <h3>
+            MySQL
+          </h3>
+          <h3>
+            RESTful
+          </h3>
+          <h3>
+            Hibernate / Struts
+          </h3>
+        </section>
+        <section data-background-image="img/viewpro-01.png" data-autoslide="4000">
+          <h2 style="color:#FFA000">Graphs &amp; Charts</h2>
+        </section>
+        <section data-background-image="img/viewpro-02.png" data-autoslide="4000">
+          <h2 style="color:#FFA000">Reports</h2>
+        </section>
+        <section data-background-image="img/viewpro-03.png" data-autoslide="4000">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h2 style="color:#FFA000">Logging</h2>
+        </section>
+        <section data-background-image="img/viewpro-04.png" data-autoslide="4000">
+          <h2 style="color:#FFA000">Help Centre (Wordpress)</h2>
         </section>
       </section>
       <!-- WDI8 -->
-      <section>
+      <section data-background-color="#FFA000">
         <section>
-          <h2>Web Development Immersive</h2>
+          <h2 style="color: black">Web Development Immersive</h2>
           <hr>
         </section>
         <section>
-          <h2>800+ hours of...</h2>
+          <h2 style="color: black">800+ hours of...</h2>
           <hr>
-          <h3>
+          <h3 style="color: black">
             Coding
-          <h3>
+          <h3 style="color: black">
             Learning
           </h3>
-          <h3>
+          <h3 style="color: black">
             Growing
           </h3>
+          <h3 style="color: black">
+            Networking
+          </h3>
+          <h3 style="color: black">
+            Sharing Knowledge
+          </h3>
+        </section>
+        <section data-background-image="https://media.giphy.com/media/4oMoIbIQrvCjm/giphy.gif">
+          <h1 style="color: black">
+            Giphys!
+          </h1>
+        </section>
+        <section>
+          <h2 style="color: black">Notable Projects</h2>
+          <hr>
+          <h3 style="color: black">
+            Cantabo - Live Lyrics App
+          </h3>
+          <h3 style="color: black">
+            Restaurant Waitlist App
+          </h3>
+          <h3 style="color: black">
+            PTV API - Encrypted Request App
+          </h3>
+          <h3 style="color: black">
+            Robot Maker
+          </h3>
+          <h3 style="color: black">
+            Soft Delete Blog
+          </h3>
+        </section>
+        <section data-autoslide="3000" data-background-image="https://media.giphy.com/media/xT5LMHxhOfscxPfIfm/giphy.gif">
+          <h1 style="color: black">Even more Giphys!</h1>
+        </section>
+      </section>
+      <section data-background-color="#134E5E">
+        <section>
+          <h2>Cantabo Live Lyrics</h2>
+          <hr>
+          <h3>My Final Project</h3>
+        </section>
+        <section>
+          <h2>I host piano karaoke nights</h2>
+          <hr>
+          <img src="img/piano_night04_01.jpeg" alt="" style="height:550px; max-height:auto">
+          <img src="img/piano_night04_02.jpeg" alt="" style="height:550px; max-height:auto">
+        </section>
+        <section data-background-image="img/piano_night04_03.jpeg">
+        </section>
+        <section>
+          <h2>Why build an app?</h2>
+          <hr>
+          <h3>
+            1. I can't remember lyrics very well
           </h3>
           <h3>
-            Networking
+            2. Most of my audience can't seem to either!
+          </h3>
+          <h3>
+            3. People would spend half the song frantically Googling the lyrics
+          </h3>
+        </section>
+        <section data-background-image="img/trello-songlist.png" data-autoslide="4000">
+          <h2 style="color:black">
+            Previously I used a Trello board to store lyrics.
+          </h2>
+        </section>
+        <section>
+          <h2>Time to build an app!</h2>
+          <hr>
+          <h3>
+            I decided to build an app that serves up the lyrics of the current song to my audience.
+          </h3>
+          <h3>
+            Something easy to use and simple in design.
           </h3>
         </section>
         <section>
-          <h2>Notable Projects</h2>
+          <h2>Tech Stack</h2>
           <hr>
           <h3>
-            Cantabo - Live Lyrics App
+            <i class="devicon-rails-plain colored"></i> Ruby on Rails
           </h3>
           <h3>
-            Restaurant Waitlist App
+            <i class="devicon-postgresql-plain colored"></i> PostgreSQL
           </h3>
           <h3>
-            PTV API - Encrypted Request App
+            <i class="devicon-html5-plain colored"></i> HTML5
           </h3>
           <h3>
-            Robot Maker
+            <i class="devicon-css3-plain colored"></i> CSS3
           </h3>
           <h3>
-            Soft Delete Blog
+            <i class="devicon-heroku-plain colored"></i> Heroku
           </h3>
+        </section>
+        <section>
+          <h2>14 days of coding</h2>
+          <hr>
+          <h3>
+            Wireframing
+          </h3>
+          <h3>
+            Prototyping with invision
+          </h3>
+          <img src="img/Cantabo-Invision-23.26.59.jpg" alt="" style="height:300px; max-height:auto">
+          <img src="img/Cantabo-Invision-23.30.25.jpg" alt="" style="height:300px; max-height:auto">
+          <img src="img/Cantabo-Invision-23.32.35.jpg" alt="" style="height:300px; max-height:auto">
+          <img src="img/Cantabo-Invision-23.34.46.jpg" alt="" style="height:300px; max-height:auto">
+          <h3>
+            Not much sleep!
+          </h3>
+        </section>
+        <section data-autoslide="2000">
+          <h2>The App</h2>
+          <hr>
+        </section>
+        <section data-background-image="img/cantabo-screenshot-01.png" data-autoslide="6000">
+        </section>
+        <section data-background-image="img/cantabo-screenshot-02.png" data-autoslide="6000">
+        </section>
+        <section data-background-image="img/cantabo-screenshot-03.png" data-autoslide="6000">
+        </section>
+        <section data-background-image="img/cantabo-screenshot-04.png" data-autoslide="6000">
+        </section>
+        <section data-background-image="img/cantabo-screenshot-05.png" data-autoslide="6000">
+        </section>
+        <section data-background-image="img/piano_night06_01.jpg" data-autoslide="3000">
+          <h2 style="color:#FFA000">Launch Night!</h2>
+        </section>
+        <section data-background-image="img/piano_night06_02.jpg" data-autoslide="3000">
+          <h2 style="color:#FFA000">Happy Users...</h2>
+        </section>
+        <section data-background-image="img/piano_night06_03.jpg" data-autoslide="3000">
+          <h2 style="color:#FFA000">Celebrations...</h2>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        </section>
+        <section data-background-image="img/piano_night06_04.jpg" data-autoslide="3000">
+          <h2 style="color:#FFA000">Terrible posture...</h2>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        </section>
+        <section data-background-image="img/piano_night06_05.jpg" data-autoslide="3000">
+          <br>
+          <br>
+          <br>
+          <br>
+          <h2 style="color:#FFA000">Good times!</h2>
+        </section>
+        <section data-background-image="img/cantabo-analytics-01.png" data-autoslide="4000">
+          <h2 style="color:#FFA000">Some Google Analytics</h2>
+        </section>
+        <section data-background-image="img/cantabo-analytics-02.png" data-autoslide="4000">
+          <h2 style="color:#FFA000">More Google Analytics</h2>
+        </section>
+        <section data-background-image="img/cantabo-survey-01.png" data-autoslide="4000">
+          <h2 style="color:#F44336">And I surveyed people too</h2>
+        </section>
+        <section data-background-image="img/cantabo-survey-02.png" data-autoslide="4000">
+          <h2 style="color:#F44336">More survey results</h2>
+        </section>
+      </section>
+      <!-- MY GOALS -->
+      <section>
+        <section>
+          <h2>My Future...</h2>
+          <hr>
+          <h3>
+            I'd love to join/create Unicorn 175...
+          </h3>
+          <img src="img/Unicorns-dont-just-happen-overnight.jpg" alt="Unicorns" style="max-width:400px; max-height:auto">
+        </section>
+        <section data-background-image="img/unicorn-list.png">
+          <h3 style="color:#FFA000">...there are 174 Unicorns to catch up on!</h3>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+        </section>
+        <section>
+          <h3>
+            Who knows where I'll end up!
+          </h3>
+          <img src="img/mr-t-unicorn.jpg" alt="Mr T" style="height:275px">
+          <img src="img/unicorns-business-table.jpg" alt="Unicorn Business Meeting" style="height:275px">
+        </section>
+      </section>
+      <!-- THE END - CONTACT -->
+      <section>
+        <section data-autoslide="15000">
+          <h2>Let's stay in touch!</h2>
+          <hr>
+          <h3>
+             <a href="https://au.linkedin.com/in/niall-o-callaghan-webdev">linkedin.com/in/niall-o-callaghan-webdev</a>
+          </h3>
+          <h3>
+            <a href="http://noccer.com">noccer.com</a>
+          </h3>
+          <h3>
+            <a href="mailto:niall@viewpro.com.au">niall@viewpro.com.au</a>
+          </h3>
+          </h3>
+          <h3>
+            <a href="mailto:nocallaghan49@gmail.com">nocallaghan49@gmail.com</a>
+          </h3>
+        </section>
+        <section>
+          <h1>Thank you!</h1>
+          <hr>
         </section>
       </section>
     </div>
@@ -290,7 +564,7 @@
       // Number of milliseconds between automatically proceeding to the
       // next slide, disabled when set to 0, this value can be overwritten
       // by using a data-autoslide attribute on your slides
-      autoSlide: 0,
+      autoSlide: 6000,
 
       // Stop auto-sliding after user input
       autoSlideStoppable: true,
@@ -317,7 +591,7 @@
       backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
 
       // Number of slides away from the current that are visible
-      viewDistance: 3,
+      viewDistance: 2,
 
       // Parallax background image
       parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
