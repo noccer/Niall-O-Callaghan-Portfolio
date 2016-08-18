@@ -1,11 +1,9 @@
-# This is a repo for my presentation slides
+# Niall O'Callaghan | Full Stack Web Developer
 
-WDI7 Meet and Greet
-General Assembly
-12A/45 William Street
-Melbourne 3000
+This is a small slideshow about what I've been getting up to lately. You can view the short slideshow here:
 
-Tuesday 2nd August 2016
+### [https://noccer.github.io/Niall-O-Callaghan-Portfolio](https://noccer.github.io/Niall-O-Callaghan-Portfolio)
 
-View the slideshow here:
-[Niall O'Callaghan | Full Stack Web Developer](https://noccer.github.io/wdi7-meet-and-greet)
+## More About Me / Contact:
+  - ### [au.linkedin.com/in/niall-o-callaghan-webdev](https://au.linkedin.com/in/niall-o-callaghan-webdev)
+  - ### [@noccer](https://twitter.com/noccer)
