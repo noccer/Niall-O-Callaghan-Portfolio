@@ -4,6 +4,6 @@ This is a small slideshow about what I've been getting up to lately. You can vie
 
 ### [https://noccer.github.io/Niall-O-Callaghan-Portfolio](https://noccer.github.io/Niall-O-Callaghan-Portfolio)
 
-## More About Me / Contact:
-  - ### [au.linkedin.com/in/niall-o-callaghan-webdev](https://au.linkedin.com/in/niall-o-callaghan-webdev)
-  - ### [@noccer](https://twitter.com/noccer)
+## Contact:
+  ### • [au.linkedin.com/in/niall-o-callaghan-webdev](https://au.linkedin.com/in/niall-o-callaghan-webdev)
+  ### • [@noccer](https://twitter.com/noccer)
