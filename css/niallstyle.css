@@ -19,3 +19,6 @@ body, h1 {
   -webkit-animation-delay: 1s;
   -webkit-animation-iteration-count: 1;
 }
+.loading {
+  color: #9e9e9e
+}
