@@ -49,12 +49,18 @@
   <div class="reveal">
     <div class="slides">
       <!-- About section -->
-      <section data-background-color="#1976D2">
-        <section class="animated zoomIn">
+      <section data-background-color="#1976D2" data-autoslide="1000">
+        <section>
           <h2>Niall O'Callaghan  🇮🇪</h2>
           <hr>
-          <h3>Web Developer</h3>
-          <!-- test -->
+          <h3 class="fragment fade-up">Web Developer</h3>
+          <h3 class="fragment fade-up">Structural Engineer</h3>
+          <section class="fragment fade-up">
+            <h3>Problem Solver</h3>
+            <img src="img/11x11cube1_1600.jpg" alt="11 x 11 Rubiks Cube" style="max-height: 250px;">
+          </section>
+          <p class="fragment fade-up" data-autoslide="5000">[ Meet my 11 x 11 Rubik's cube! ]</p>
+
         </section>
         <section data-autoslide="10000">
           <h2>Career so far...</h2>
@@ -195,13 +201,37 @@
             <sub><img src="img/viewpro-icon.png" alt="ViewPro Icon" style="max-width: 50px; border: none; background: none; transform: translateY(10px);"></sub> Founded a startup company / app
           </h3>
           <h3>
-            <i class="fa fa-cubes" aria-hidden="true"></i> Rubik's Cubes!
-          <h3>
             <i class="fa fa-user" aria-hidden="true"></i> Meetup Host / Organiser
           </h3>
           <h3>
-            <i class="fa fa-bicycle" aria-hidden="true"></i> 2100km lap of Ireland ☘
+            <i class="fa fa-bicycle" aria-hidden="true"></i> A 2100km lap of Ireland ☘
           </h3>
+          <br>
+          <h3>And...</h3>
+        </section>
+        <section style="background-color: rgba(0, 0, 0, 0.3); padding: 20px; color: #fff; text-shadow: 0px 0px 15px #FFC107; border-radius: 20px" data-background-image="img/11x11cube1_1600.jpg" data-autoslide="35000">
+          <h2 style="color: #03A9F4; text-shadow: 0 0 15px #000">I solve Rubik's cubes...</h2>
+          <p>Solving Rubik's Cubes is very much a form of coding. There are certain patterns to recognise as you solve the cube, and then you apply some 'algorithms' to move the pieces to where you need. </p>
+          <p>A very high concentration level is needed in order to focus on every single piece in the puzzle. One slip up can literally set you back hours. I get as much enjoyment from 'cubing' as I do from coding.</p>
+          <hr style="border: 1px solid white">
+          <p>This is my 11 x 11 Rubiks Cube. A regular Rubiks Cube is a 3 x 3 grid.</p>
+          <p>People often ask me if the 11 x 11 cube really works. It sure does!</p>
+          <p>This photo shows the cube in its completed state, but with each layer slightly skewed to show that it really works.</p>
+        </section>
+        <section data-background-image="img/11x11cube1_1600.jpg" data-autoslide="7000">
+        </section>
+        <section data-background-image="img/11x11cube2_1600.jpg" data-autoslide="2000">
+        </section>
+        <section style="background-color: rgba(0, 0, 0, 0.3); padding: 20px; color: #fff; text-shadow: 0px 0px 15px #388E3C; border-radius: 20px" data-background-image="img/11x11cube2_1600.jpg" data-autoslide="35000">
+          <h2 style="color: #03A9F4; text-shadow: 0 0 15px #000"><code>'cubing' == coding</code></h2>
+          <p>I learned how to solve the original 1980's 3 x 3 Rubik's cube back in 2006. Once I had mastered that, I was determined to go bigger and conquer the 4 x 4... then I solved the 5 x 5 and 7 x 7.</p>
+          <hr style="border: 1px solid white">
+          <p>Solving the 11 x 11 is one of my favourite achievements to date. It took years of learning, practice and determination. It now takes me only 2-3 hours to solve from a completely scrambled state.</p>
+          <hr style="border: 1px solid white">
+          <p>If you were to manufacture a single 3 x 3 Rubik's cube for every combination that exists, then stack one on top of the other, the stack would extend for 261 light years!</p>
+          <p>There are 4.53 x 10^810 combinations for the 11 x 11 cube, so its stack would stretch to 5.5 x 10^793 light years... wow!</p>
+        </section>
+        <section data-background-image="img/11x11cube2_1600.jpg" data-autoslide="7000">
         </section>
       </section>
       <!-- ViewPro -->
@@ -212,26 +242,26 @@
           <h3>Construction Productivity App</h3>
           <h3>(2013 - Present)</h3>
         </section>
-        <section data-autoslide="12000">
+        <section data-autoslide="15000">
           <h2>Reasons we built ViewPro</h2>
           <hr>
           <h3>
-            ● Widespread lack of consistent reporting
+            ● Daily construction reports are very rare
           </h3>
           <h3>
-            ● Detailed construction analytics difficult
+            ● Construction is difficult to analyse
           </h3>
           <h3>
             ● Often too late to react to delays/issues
           </h3>
           <h3>
-            ● $138billion market in Australia
+            ● It's time consuming to build good reports
           </h3>
           <h3>
-            ● 65,000+ construction related companies
+            ● Report quality/content very inconsistent
           </h3>
           <h3>
-            ● 250,000+ industry workers
+            ● Tradespeople/Workers on the frontline never know their live production rates
           </h3>
         </section>
         <section>
@@ -747,7 +777,7 @@
       shuffle: false,
 
       // Turns fragments on and off globally
-      fragments: false,
+      fragments: true,
 
       // Flags if the presentation is running in an embedded mode,
       // i.e. contained within a limited portion of the screen
