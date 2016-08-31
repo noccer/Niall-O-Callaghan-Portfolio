@@ -4,6 +4,12 @@
 body, h1 {
   font-family: monospace;
 }
+.colored, .devicon-php-plain, .devicon-mongodb-plain, .devicon-atom-original {
+  text-shadow: 1px 1px 1px black;
+}
+.fa, .devicon-github-plain, .devicon-ssh-plain, .devicon-linux-plain, .devicon-apple-original, .devicon-wordpress-plain, .devicon-backbonejs-plain, .devicon-mysql-plain, .devicon-apache-plain, .devicon-sourcetree-plain, .bitwise {
+  text-shadow: 1px 1px 1px white;
+}
 @font-face {
   font-family: 'SanchezSlab';
   src: url('../font/SanchezSlab-Semibold.ttf');
@@ -20,5 +26,12 @@ body, h1 {
   -webkit-animation-iteration-count: 1;
 }
 .loading {
-  color: #9e9e9e
+  color: #9e9e9e;
+  vertical-align: middle;
+}
+.loading i.fa-pulse, .fa-cog {
+  /*text-align: center;*/
+  text-shadow: none;
+  /*filter: blur(0);*/
+  transform-origin: 51% 48%;
 }
